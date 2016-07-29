@@ -13,7 +13,8 @@ Requirements:
 # Installation
 
 1. Modify project.json to include your own IAM role.
-2. Deploy to AWS with `apex deploy exec`.
+2. Install npm modules: `cd functions/exec; npm install`
+3. Deploy to AWS with `apex deploy exec`.
 
 # Usage
 

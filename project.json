@@ -4,6 +4,6 @@
   "description": "",
   "memory": 128,
   "timeout": 300,
-  "role": "",
+  "role": "arn:aws:iam::554407330061:role/hello-world_lambda_function",
   "environment": {}
 }
