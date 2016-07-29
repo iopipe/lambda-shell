@@ -1,0 +1,9 @@
+
+{
+  "name": "lambda-shell",
+  "description": "",
+  "memory": 128,
+  "timeout": 300,
+  "role": "",
+  "environment": {}
+}
