@@ -4,7 +4,7 @@ Lambda shell - a lambda-backed Linux shell
 Execute commands hosted and executed by AWS Lambda
 via an interactive shell / terminal.
 
-[![asciicast](https://asciinema.org/a/81321.png)](https://asciinema.org/a/81321)
+[![VideoGif](https://raw.githubusercontent.com/iopipe/lambda-shell/master/contrib/demo.gif)]
 
 Requirements:
  - Apex (https://apex.run)
