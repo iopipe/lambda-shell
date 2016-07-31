@@ -1,5 +1,5 @@
 #!/bin/bash
 while : ; do
-  read -p '$ ' cmd
+  read -p '[35mλ$[0m ' cmd
 	apex invoke exec <<<"{ \"command\": \"$cmd\" }" | sed 's/\\n/\n/g; s/\\t/\t/g; 1{ s/^"// }; ${ s/"$//; };'
 done
