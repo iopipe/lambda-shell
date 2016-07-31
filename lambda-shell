@@ -1,5 +1,5 @@
 #!/bin/bash
 while : ; do
   read -p '$ ' cmd
-	apex invoke exec <<<"{ \"command\": \"$cmd\" }" | sed 's/\\n/\n/g; s/\\t/\t/g; 1{ s/^"// }; ${ s/"$//; };'
+       apex invoke exec <<<"{ \"command\": \"$cmd\" }" | perl -p -e 's/\\n/\n/g' | sed 's/\\t/\t/g; 1 s/^"//; $ s/"$//;'
 done
