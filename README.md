@@ -7,7 +7,7 @@ via an interactive shell / terminal.
 ![VideoGif](https://raw.githubusercontent.com/iopipe/lambda-shell/master/contrib/demo.gif)
 
 Requirements:
- - Apex (https://apex.run)
+ - Apex (http://apex.run)
  - Amazon AWS account
 
 # Installation
